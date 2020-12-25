@@ -1,0 +1,78 @@
+/* .name - class; #name - id 
+		:hover - наведение
+		:active - нажатие
+*/
+
+#example{
+    -fx-background-color: #445869;
+}
+
+#result {
+    -fx-background-color: #445869;
+    -fx-border-color: #ffffff;
+}
+
+.numbers {
+    -fx-background-color: #24303b;
+    -fx-border-radius: 0px;
+    -fx-border-style: solid;
+    -fx-border-size: 1px;
+    -fx-border-color: #ffffff;
+    }
+	
+.numbers:pressed {
+	-fx-background-color: #1c262f;
+	-fx-border-style: solid;
+    -fx-border-size: 1px;
+	-fx-border-color:  #1c262f;
+	-fx-font-size: 21px;
+}
+
+.clear {
+    -fx-background-color: #445869;
+    -fx-border-radius: 0px;
+    -fx-border-style: solid;
+    -fx-border-size: 1px;
+    -fx-border-color: #ffffff;
+    }
+
+.clear:pressed {
+	-fx-background-color: #1c262f;
+	-fx-border-style: solid;
+    -fx-border-size: 1px;
+	-fx-border-color:  #1c262f;
+	-fx-font-size: 21px;
+}
+
+#equals {
+    -fx-background-color: #fc9a0e;
+    -fx-border-radius: 0px;
+    -fx-border-style: solid;
+    -fx-border-size: 1px;
+    -fx-border-color: #ffffff;
+    }
+
+#equals:pressed {
+	-fx-background-color: #1c262f;
+	-fx-border-style: solid;
+    -fx-border-size: 1px;
+	-fx-border-color:  #1c262f;
+	-fx-font-size: 21px;
+	-fx-text-fill: #ffffff;
+}
+
+.actions {
+    -fx-background-color: #5e7a92;
+    -fx-border-radius: 0px;
+    -fx-border-style: solid;
+    -fx-border-size: 1px;
+    -fx-border-color: #ffffff;
+}
+
+.actions:pressed {
+	-fx-background-color: #1c262f;
+	-fx-border-style: solid;
+    -fx-border-size: 1px;
+	-fx-border-color:  #1c262f;
+	-fx-font-size: 21px;
+}
